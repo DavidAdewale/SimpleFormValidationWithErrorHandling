@@ -14,6 +14,8 @@
 		BBBF9FDC2C4015DB001C4A74 /* HelloSwiftFormTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBF9FDB2C4015DB001C4A74 /* HelloSwiftFormTests.swift */; };
 		BBBF9FE62C4015DB001C4A74 /* HelloSwiftFormUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBF9FE52C4015DB001C4A74 /* HelloSwiftFormUITests.swift */; };
 		BBBF9FE82C4015DB001C4A74 /* HelloSwiftFormUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBF9FE72C4015DB001C4A74 /* HelloSwiftFormUITestsLaunchTests.swift */; };
+		BBBF9FF62C40166C001C4A74 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBF9FF52C40166C001C4A74 /* String+Extension.swift */; };
+		BBBF9FF92C4040AD001C4A74 /* LoginFormError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBF9FF82C4040AD001C4A74 /* LoginFormError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		BBBF9FE12C4015DB001C4A74 /* HelloSwiftFormUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloSwiftFormUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBBF9FE52C4015DB001C4A74 /* HelloSwiftFormUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloSwiftFormUITests.swift; sourceTree = "<group>"; };
 		BBBF9FE72C4015DB001C4A74 /* HelloSwiftFormUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloSwiftFormUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BBBF9FF52C40166C001C4A74 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		BBBF9FF82C4040AD001C4A74 /* LoginFormError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFormError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,8 @@
 		BBBF9FC92C4015D9001C4A74 /* HelloSwiftForm */ = {
 			isa = PBXGroup;
 			children = (
+				BBBF9FF72C404096001C4A74 /* Form Errors */,
+				BBBF9FF42C401660001C4A74 /* Extension */,
 				BBBF9FCA2C4015D9001C4A74 /* HelloSwiftFormApp.swift */,
 				BBBF9FCC2C4015D9001C4A74 /* ContentView.swift */,
 				BBBF9FCE2C4015DA001C4A74 /* Assets.xcassets */,
@@ -125,6 +131,22 @@
 				BBBF9FE72C4015DB001C4A74 /* HelloSwiftFormUITestsLaunchTests.swift */,
 			);
 			path = HelloSwiftFormUITests;
+			sourceTree = "<group>";
+		};
+		BBBF9FF42C401660001C4A74 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				BBBF9FF52C40166C001C4A74 /* String+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		BBBF9FF72C404096001C4A74 /* Form Errors */ = {
+			isa = PBXGroup;
+			children = (
+				BBBF9FF82C4040AD001C4A74 /* LoginFormError.swift */,
+			);
+			path = "Form Errors";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +280,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BBBF9FCD2C4015D9001C4A74 /* ContentView.swift in Sources */,
+				BBBF9FF62C40166C001C4A74 /* String+Extension.swift in Sources */,
+				BBBF9FF92C4040AD001C4A74 /* LoginFormError.swift in Sources */,
 				BBBF9FCB2C4015D9001C4A74 /* HelloSwiftFormApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
